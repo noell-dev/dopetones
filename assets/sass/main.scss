@@ -10,6 +10,7 @@
 $backcolor: #FFFFFF;
 $mainbackground: #f7f7f7;
 $textcolor: #252122;
+$textcolorlight: #858484;
 $bordercolor: #dddddd;
 $placeholdercolor: #555;
 $maincolor: #b24317;
@@ -17,6 +18,7 @@ $maincolorlight: #EC9B68;
 $neutralcolor: #E5DDD0;
 $accentcolor: #6F9889;
 $accentcolorlight: #ACCABD;
+
 
 /*
 	Dopetrope by HTML5 UP
@@ -781,7 +783,7 @@ ul.dates {
         background-color: $maincolor;
         height: 3.5em;
         text-align: center;
-        color: #fff;
+        color: $neutralcolor;
         line-height: 1em;
         border-top-left-radius: 5px;
         border-bottom-left-radius: 5px;
@@ -799,6 +801,7 @@ ul.dates {
 
         strong {
             display: block;
+            color: $neutralcolor !important;
             font-size: 1.75em;
             padding-top: 0.15em;
         }
@@ -1065,7 +1068,7 @@ ul.social {
             &.active {
                 >a {
                     background: $mainbackground;
-                    font-weight: 700;
+                    // font-weight: 700;
                 }
             }
 
@@ -1256,7 +1259,7 @@ ul.social {
 
 #footer {
     position: relative;
-    color: #858484;
+    color: $textcolor;
     padding: 4em 0;
 
     &:before {
@@ -1281,7 +1284,7 @@ ul.social {
     h6,
     strong,
     b {
-        color: #fff;
+        color: $textcolor;
 
         a {
             color: inherit;
@@ -1617,7 +1620,7 @@ ul.social {
         top: 0;
         width: _size(navPanel);
         z-index: _misc(z-index-base) + 2;
-        color: #858484;
+        color: $textcolorlight;
         box-shadow: inset -3px 0px 5px 0px rgba(0, 0, 0, 0.35);
 
         .link {
