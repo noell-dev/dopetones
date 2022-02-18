@@ -525,6 +525,11 @@ footer {
             }
         }
     }
+    &.neutral {
+    background-color: $neutralcolor;
+    padding: 45px;
+}
+    }
     footer {
         ul.actions {
             margin-bottom: 0;
