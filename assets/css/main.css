@@ -2029,8 +2029,7 @@ ul.social li a.fa-google-plus:hover {
   color: inherit;
 }
 #footer ul.contact li, #footer ul.dates li, #footer ul.divided li {
-  border-top-color: #353434;
-  border-top-color: rgba(255, 255, 255, 0.05);
+  border-top-color: rgba(0, 0, 0, 0.05);
 }
 #footer header {
   margin: 0 0 3em 0;
@@ -2328,7 +2327,7 @@ body {
     text-decoration: none;
     height: 44px;
     line-height: 44px;
-    border-top: solid 1px rgba(255, 255, 255, 0.05);
+    border-top: solid 1px rgba(0, 0, 0, 0.05);
     padding: 0 1em 0 1em;
     /* font-style: italic; */
     font-weight: bold;
