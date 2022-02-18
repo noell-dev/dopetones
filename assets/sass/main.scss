@@ -9,8 +9,6 @@
 // Colors
 $backcolor: #FFFFFF;
 $mainbackground: #f7f7f7;
-$textcolor: #252122;
-$textcolorlight: #858484;
 $bordercolor: #dddddd;
 $placeholdercolor: #555;
 $maincolor: #b24317;
@@ -18,7 +16,8 @@ $maincolorlight: #EC9B68;
 $neutralcolor: #E5DDD0;
 $accentcolor: #6F9889;
 $accentcolorlight: #ACCABD;
-
+$textcolor: #252122;
+$textcolorlight: #FFF;//$neutralcolor;// #858484;
 
 /*
 	Dopetrope by HTML5 UP
@@ -591,7 +590,7 @@ button,
     border: 0;
     border-radius: 5px;
     background: $maincolor;
-    color: #fff !important;
+    color: $textcolorlight !important;
     font-weight: 700;
     outline: 0;
     font-size: 1.1em;
@@ -601,22 +600,27 @@ button,
         'background-color .25s ease-in-out');
 
     &:hover {
-        background: $mainbackground;
+        background: $maincolorlight;
+        color: $textcolorlight !important;
     }
 
     &:active {
         background: $maincolor;
+        color: $textcolorlight !important;
     }
 
     &.alt {
-        background: $textcolor;
+        background: $accentcolor;
+        color: $textcolor !important;
 
         &:hover {
             background: $accentcolorlight;
+            color: $textcolor !important;
         }
 
         &:active {
-            background: $accentcolor;
+            background: $accentcolorlight;
+            color: $textcolor !important;
         }
     }
 
@@ -783,7 +787,7 @@ ul.dates {
         background-color: $maincolor;
         height: 3.5em;
         text-align: center;
-        color: $neutralcolor;
+        color: $textcolorlight;
         line-height: 1em;
         border-top-left-radius: 5px;
         border-bottom-left-radius: 5px;
@@ -801,7 +805,7 @@ ul.dates {
 
         strong {
             display: block;
-            color: $neutralcolor !important;
+            color: $textcolorlight !important;
             font-size: 1.75em;
             padding-top: 0.15em;
         }

@@ -1412,7 +1412,7 @@ button,
   border: 0;
   border-radius: 5px;
   background: #b24317;
-  color: #fff !important;
+  color: #FFF !important;
   font-weight: 700;
   outline: 0;
   font-size: 1.1em;
@@ -1428,7 +1428,8 @@ input[type=submit]:hover,
 input[type=reset]:hover,
 button:hover,
 .button:hover {
-  background: #f7f7f7;
+  background: #EC9B68;
+  color: #FFF !important;
 }
 input[type=button]:active,
 input[type=submit]:active,
@@ -1436,13 +1437,15 @@ input[type=reset]:active,
 button:active,
 .button:active {
   background: #b24317;
+  color: #FFF !important;
 }
 input[type=button].alt,
 input[type=submit].alt,
 input[type=reset].alt,
 button.alt,
 .button.alt {
-  background: #252122;
+  background: #6F9889;
+  color: #252122 !important;
 }
 input[type=button].alt:hover,
 input[type=submit].alt:hover,
@@ -1450,13 +1453,15 @@ input[type=reset].alt:hover,
 button.alt:hover,
 .button.alt:hover {
   background: #ACCABD;
+  color: #252122 !important;
 }
 input[type=button].alt:active,
 input[type=submit].alt:active,
 input[type=reset].alt:active,
 button.alt:active,
 .button.alt:active {
-  background: #6F9889;
+  background: #ACCABD;
+  color: #252122 !important;
 }
 input[type=button].icon:before,
 input[type=submit].icon:before,
@@ -1596,7 +1601,7 @@ ul.dates .date {
   background-color: #b24317;
   height: 3.5em;
   text-align: center;
-  color: #E5DDD0;
+  color: #FFF;
   line-height: 1em;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
@@ -1613,7 +1618,7 @@ ul.dates .date:after {
 }
 ul.dates .date strong {
   display: block;
-  color: #E5DDD0 !important;
+  color: #FFF !important;
   font-size: 1.75em;
   padding-top: 0.15em;
 }
@@ -2314,7 +2319,7 @@ body {
     top: 0;
     width: 275px;
     z-index: 10002;
-    color: #858484;
+    color: #FFF;
     box-shadow: inset -3px 0px 5px 0px rgba(0, 0, 0, 0.35);
   }
   #navPanel .link {
