@@ -303,6 +303,7 @@ dd {
 
 #logo {
   height: 125px;
+  width: auto;
 }
 
 /* Container */
