@@ -10,7 +10,13 @@
 		<title>Dopetrope by HTML5 UP</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
+		<link id="pagestyle" rel="stylesheet" href="assets/css/dopetones.css" />
+
+		<script>
+			function swapStyleSheet(sheet) {
+   				document.getElementById("pagestyle").setAttribute("href", sheet);  
+			}
+		</script>
 	</head>
 	<body class="homepage is-preload">
 		<div id="page-wrapper">
@@ -27,13 +33,19 @@
 							<ul>
 								<li class="current"><a href="index.html">Home</a></li>
 								<li>
+									<a href="#">Switch Stylesheet</a>
+									<ul>
+										<li><a onclick="swapStyleSheet('assets/css/dope-earth.css')">Earth (Default)</a></li>
+										
+									</ul>
+								</li>
+								<li>
 									<a href="#">Dropdown</a>
 									<ul>
-										<li><a href="#">Lorem ipsum dolor</a></li>
 										<li><a href="#">Magna phasellus</a></li>
 										<li><a href="#">Etiam dolore nisl</a></li>
 										<li>
-											<a href="#">Phasellus consequat</a>
+											<a href="#">Nested</a>
 											<ul>
 												<li><a href="#">Magna phasellus</a></li>
 												<li><a href="#">Etiam dolore nisl</a></li>
