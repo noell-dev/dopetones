@@ -6,26 +6,7 @@
 @import 'libs/html-grid';
 @import url("fontawesome-all.min.css");
 @import url("fonts.css");
-// Colors
-$backcolor: #FFFFFF;
-$mainbackground: #f7f7f7;
-$bordercolor: #dddddd;
-$bordercolorlight: rgba(0,0,0,0.05);
-$placeholdercolor: #555;
-$maincolor: #b24317;
-$maincolorlight: #EC9B68;
-$neutralcolor: #E5DDD0;
-$accentcolor: #6F9889;
-$accentcolorlight: #ACCABD;
-$textcolor: #252122;
-$textcolorlight: #FFF;//$neutralcolor;// #858484;
 
-
-/*
-	Dopetrope by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
 // Breakpoints.
 @include breakpoints((xlarge: (1281px, 1680px),
