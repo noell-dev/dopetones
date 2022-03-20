@@ -8,14 +8,12 @@
 $backcolor: #FFFFFF;
 $mainbackground: #f7f7f7;
 $bordercolor: #dddddd;
-$bordercolorlight: rgba(0,0,0,0.05);
-$placeholdercolor: #baae96;
-$maincolor: #445347;
-$maincolorlight: #3f3a2f;
-$neutralcolor: #ebe6db;
-$accentcolor: #777a62;
-$accentcolorlight: #cdc68c;
+$bordercolorlight: rgba(0, 0, 0, 0.05);
+$placeholdercolor: #555;
+$maincolor: #b24317;
+$maincolorlight: #EC9B68;
+$neutralcolor: #E5DDD0;
+$accentcolor: #6F9889;
+$accentcolorlight: #ACCABD;
 $textcolor: #252122;
-$textcolorlight: #FFF;
-
-@import "libs/main.scss";
+$textcolorlight: #FFF; //$neutralcolor;// #858484;
