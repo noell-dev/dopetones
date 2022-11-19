@@ -155,6 +155,8 @@ input::-moz-focus-inner {
     padding: 0;
 }
 
+
+/*
 input,
 select,
 textarea {
@@ -163,6 +165,7 @@ textarea {
     -ms-appearance: none;
     appearance: none;
 }
+*/
 
 
 /* Basic */
@@ -381,7 +384,7 @@ form {
     input[type=password],
     select,
     textarea {
-        -webkit-appearance: none;
+        //-webkit-appearance: none;
         display: block;
         border: 0;
         padding: 0.75em 1em;
@@ -531,7 +534,7 @@ input[type="submit"],
 input[type="reset"],
 button,
 .button {
-    -webkit-appearance: none;
+    //-webkit-appearance: none;
     display: inline-block;
     text-decoration: none;
     cursor: pointer;
@@ -1749,5 +1752,5 @@ ul.wordcloud a[data-weight="9"] {
 }
 
 .section_anchor {
-	padding: 0;
+    padding: 0;
 }
